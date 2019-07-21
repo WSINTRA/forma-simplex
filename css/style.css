@@ -15,9 +15,10 @@ body {
 }
 
 .header {
-	height: 95vh;
-	background-image: linear-gradient(to bottom,rgba(81,147,85,0.8), rgba(122,69,56,0.8)),  url(../img/large-1.png) ;
+	height: 75vh;
+	background-image: linear-gradient(rgba(14,15,26,0.6), rgba(14,15,26,0.6)),linear-gradient(to bottom,rgba(81,147,85,0.5), rgba(122,69,56,0.8)), url(../img/large-1.png) ;
 	background-size: cover;
+	/*background-blend-mode: saturation;*/
 	background-position: bottom;
 	width: 100%;
 	clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
@@ -25,26 +26,30 @@ body {
 }
 
 .logo {
-	height: 50px; 
-	
+	height: 50px; 	
 }
+
 
 .logo-box {
 	position: absolute;
 	top: 2vh;
-	left: 2vh;
+	left: 2vw;
+
 }
 
 .head-text {
 	position: absolute;
 	left: 50%;
 	top: 30%;
+	transform: translate(-50%,-35%);
+	text-align: center;
 }
 
 .heading-primary {
 	color: #F7FCFA;
 	text-transform: uppercase;
-	transform: translate(-25%,-25%);
+	
+	margin-bottom: 50px;
 }
 
 .heading-primary-sub {
@@ -67,8 +72,62 @@ body {
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
 }
+.heading-primary-sub.animate-scroll {
+	opacity: 0;
+	animation-name: moveOut;
+	animation-duration: 2s; 
+}
+.heading-secondary-sub {
 
+    visibility: hidden;
+}
+.heading-secondary-sub.animate {
+	margin-left: 25%;
+	color: #E7F8FB;
+	display: block;
+	font-size: 2em;
+	font-weight: 400;
+	letter-spacing: 21px;
+	animation-name: moveInRight;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	visibility: unset;
+}
 
+.btn:link, 
+.btn:visited {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 250px;
+	transition: all .2s;
+}
+.btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0.3px 10px 20px rgba(86,93,94,0.4)
+}
+.btn:active {
+	transform: translateY(-1px);
+	box-shadow: 0.3px 5px 10px rgba(86,93,94,0.4)
+}
+
+.btn-white {
+	background-color: rgba(239,237,250,1);
+	color:#151616;
+
+}
+.btn-animated {
+	animation: buttonUp 3s ease-out; 
+	
+}
+
+@keyframes buttonUp {
+	0% { transform: translateY(90rem) ;
+	opacity: 0}
+	90%{opacity: 0.5;}
+	100% {}
+}
 @keyframes moveInLeft {
 	0% {
         opacity: 0;
@@ -89,6 +148,17 @@ body {
 		opacity: 1;
 
 	}
+}
+
+@keyframes moveOut {
+	0% {
+		opacity: 1;
+		transform: translateX(0);}
+	100% {
+		opacity: 0;
+		transform: translateX(100px);
+
+		}
 }
 
 @keyframes moveInRight {

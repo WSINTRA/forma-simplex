@@ -1,27 +1,11 @@
-document.addEventListener('scroll', ()=>{
-	
-	let grab = document.getElementById('grab')
-	myAnim(grab)
-})
+const animate = () => {
+console.log("scroll")
+let headtextForAnimation = document.querySelector('.heading-primary-sub');
+let tailtextForAnimation = document.querySelector('.heading-secondary-sub')
+headtextForAnimation.classList.add('animate-scroll');
+tailtextForAnimation.classList.add('animate')
+}
 
-let myAnim = (function() { //Closure so it can only run once
-  let executed = false
-  return function(elem) {
-        if (!executed) {
-            executed = true;
-            let pos = 0;
-  			let id = setInterval(frame, 10);
-        function frame() {
-		    if (pos == 350) {
-		      clearInterval(id);
-		    	} else {
-			      pos++; 
-			      elem.style.marginTop = pos + 'px'; 
-			      elem.style.marginLeft = pos + 'px'; 
-			      }
-            }
-        }
-  
 
- 
-}}) ();
+
+window.addEventListener('scroll', animate )
