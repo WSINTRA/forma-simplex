@@ -121,6 +121,17 @@ body {
 	animation: buttonUp 3s ease-out; 
 	
 }
+.line-pic {
+	display: inline;
+    position: relative;
+    left: 10%;
+    width: 50%;
+}
+.about-me {
+	display: inline-block;
+	position: relative;
+	
+}
 
 @keyframes buttonUp {
 	0% { transform: translateY(90rem) ;
