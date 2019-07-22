@@ -1,7 +1,7 @@
 const animateHeader = () => {
 
-let headtextForAnimation = document.querySelector('.heading-primary-sub');
-let tailtextForAnimation = document.querySelector('.heading-secondary-sub')
+let headtextForAnimation = document.querySelector('.heading-primary--sub');
+let tailtextForAnimation = document.querySelector('.heading-secondary--sub')
 
 headtextForAnimation.classList.add('animate-scroll');
 tailtextForAnimation.classList.add('animate')
@@ -25,7 +25,7 @@ const drawLines = () => {
 		path.getBoundingClientRect();
 		// Define our transition
 		path.style.transition = path.style.WebkitTransition =
-		  'stroke-dashoffset 6s ease-in-out';
+		  'stroke-dashoffset 9s ease-in';
 		// Go!
 		path.style.strokeDashoffset = '0';
         })

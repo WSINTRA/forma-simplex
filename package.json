@@ -1,0 +1,22 @@
+{
+  "name": "forma-simplex",
+  "version": "1.0.0",
+  "description": "front end website for learning my craft!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WSINTRA/forma-simplex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WSINTRA/forma-simplex/issues"
+  },
+  "homepage": "https://github.com/WSINTRA/forma-simplex#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
