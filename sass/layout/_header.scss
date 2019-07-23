@@ -1,0 +1,11 @@
+
+.header {
+    height: 75vh;
+    background-image: linear-gradient(rgba($color-primary-light, 0.6), rgba($color-primary-dark, 0.6)), url(../img/large-1.png);
+    background-size: cover;
+    /*background-blend-mode: saturation;*/
+    background-position: top;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 65vh, 0 100%);
+    position: relative;
+}

@@ -1,0 +1,114 @@
+.header__logo {
+    height: 5rem;
+}
+
+
+.header__logo-box {
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+
+}
+
+.header__head-text {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -35%);
+    text-align: center;
+}
+
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+
+    margin-bottom: 5rem;
+}
+
+.heading-primary--sub {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+.heading-primary--main {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 2.1rem;
+    animation-name: moveInRight;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+.heading-primary--sub.animate-scroll {
+    opacity: 0;
+    animation-name: moveOut;
+    animation-duration: 2s;
+}
+
+.heading-secondary {
+    font-size:  3.5em;
+    display: inline-block;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, $color-black, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .5s;
+
+    &:hover {
+        transform: skewX(2deg) skewY(-2.8deg);
+       
+    }
+}
+
+.heading-secondary--sub {
+
+    visibility: hidden;
+}
+
+.heading-secondary--sub.animate {
+    margin-left: 3.82%;
+    color: $color-white;
+    display: block;
+    font-size: 2.3em;
+    font-weight: 400;
+    letter-spacing: 3.82rem;
+    animation-name: moveInRight;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    visibility: unset;
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.paragraph {
+    font-size: 1.6rem;
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
+.about {
+    position: absolute;
+}
+
+.about--pic {
+    display: inline-block;
+    left: 10%;
+    width: 30em;
+}
+
+.about--text {
+    display: inline-block;
+    width: 17rem;
+    height: 19rem;
+}
