@@ -12,7 +12,7 @@ let drawIsRun = false
 const drawLines = () => {
 	if(drawIsRun === false){
 		let allpath = document.querySelectorAll('path')
-		let length = allpath[0].getTotalLength()
+		let length = allpath[2].getTotalLength()
 		console.log(length)
         allpath.forEach(path => {
         path.style.transition = path.style.WebkitTransition =

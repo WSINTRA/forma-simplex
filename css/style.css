@@ -13,6 +13,11 @@ body {
   color: #122220;
   padding: 1em; }
 
+a {
+  text-decoration: none; }
+  a:visited {
+    color: #122220; }
+
 @keyframes buttonUp {
   0% {
     transform: translateY(90rem);
