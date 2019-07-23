@@ -4,8 +4,27 @@
 
 .u-margin-bottom-8 {
 	margin-bottom: 8rem;
+	margin-top: 8rem;
 }
 
 .u-margin-bottom-big {margin-bottom:8rem;}
 .u-margin-bottom-medium {margin-bottom:4rem;}
 .u-margin-bottom-small {margin-bottom:1.5rem;}
+
+.u-round-radius {
+	border-radius: 90px;
+	box-shadow: 0 1.5rem 4rem rgba($color-black, .4) 
+}
+
+.u-light-bground {
+	background-color:#CFDFED;
+}
+
+.u-clip-path {
+	clip-path: polygon(0 0, 100% 0%, 100% 65vh, 0 100%);
+}
+
+.u-tran-smooth {
+	transition: all .5s;
+
+}

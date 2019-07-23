@@ -53,6 +53,8 @@
 }
 
 .heading-secondary {
+
+    font-family: 'Alegreya Sans', sans-serif;
     font-size:  3.5em;
     display: inline-block;
     text-transform: uppercase;
@@ -64,7 +66,24 @@
 
     &:hover {
         transform: skewX(2deg) skewY(-2.8deg);
-       
+        text-shadow: .5rem 1rem 2rem rgba(0,0,0,0.3)
+    }
+}
+.heading-secondary--light {
+    
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size:  3.5em;
+    display: inline-block;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, $color-white, $color-primary-light);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .5s;
+
+    &:hover {
+        transform: skewX(2deg) skewY(-2.8deg);
+        text-shadow: .5rem 1rem 2rem rgba(0,0,0,0.3)
     }
 }
 
@@ -74,6 +93,7 @@
 }
 
 .heading-secondary--sub.animate {
+    text-transform: uppercase;
     margin-left: 3.82%;
     color: $color-white;
     display: block;

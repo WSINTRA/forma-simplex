@@ -23,6 +23,10 @@
     color: $color-grey-dark;
 
 }
+.btn--black {
+    background-color: rgba(239, 237, 250, 1);
+    color: $color-grey-light;
+}
 
 .btn--animated {
     animation: buttonUp 3s ease-out;
