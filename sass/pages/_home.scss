@@ -5,6 +5,11 @@
 	padding-bottom: 12rem;
 	margin-top: -10vh;
 
+	@include respond(tab-port) {
+          	padding-top: 19rem;
+          	padding-bottom: 2rem;
+        }
+
 }
 
 
@@ -12,8 +17,13 @@
 
 	background-color: $color-white;
 	background-image: linear-gradient(to bottom,$color-primary-dark,$color-white, );
-	padding-top: 13rem;
+	padding-top: 6rem;
 	padding-bottom: 15rem;
+
+	@include respond(tab-port) {
+          	padding-top: 2rem;
+          	padding-bottom: 13rem;
+        }
 	
 
 }
@@ -32,6 +42,9 @@
 	// 	transform: skewY(2.3deg);
 
 	// }
+		@include respond(tab-port) {
+          	padding: 18rem 0 6rem;
+        }
 }
 
 //$color-grey-dark

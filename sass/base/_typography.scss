@@ -23,28 +23,42 @@
     text-transform: uppercase;
 
     margin-bottom: 5rem;
+    &--main {
+        display: block;
+        font-size: 1.3rem;
+        font-weight: 400;
+        letter-spacing: 2.1rem;
+        animation-name: moveInRight;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        @include respond(phone) {
+        letter-spacing: 1.1rem;
+        font-size: 0.4rem;
+    }
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2.4rem;
+        font-weight: 400;
+        letter-spacing: 2rem;
+
+        animation-name: moveInLeft;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+
+         @include respond(phone) {
+        letter-spacing: 1rem;
+        font-size: 1.4rem;
+    }
+    }
+
+
 }
 
-.heading-primary--sub {
-    display: block;
-    font-size: 2.4rem;
-    font-weight: 400;
-    letter-spacing: 2rem;
 
-    animation-name: moveInLeft;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-}
 
-.heading-primary--main {
-    display: block;
-    font-size: 1.3rem;
-    font-weight: 400;
-    letter-spacing: 2.1rem;
-    animation-name: moveInRight;
-    animation-duration: 4s;
-    animation-timing-function: ease-in-out;
-}
+
 
 .heading-primary--sub.animate-scroll {
     opacity: 0;
@@ -55,7 +69,8 @@
 .heading-secondary {
 
     font-family: 'Alegreya Sans', sans-serif;
-    font-size:  3.5em;
+    font-size: 3.5em;
+    font-weight: 700;
     display: inline-block;
     text-transform: uppercase;
     background-image: linear-gradient(to right, $color-black, $color-grey-dark);
@@ -65,15 +80,23 @@
     transition: all .5s;
     padding-bottom: 1rem;
 
+     @include respond(tab-port) {
+        font-size: 3rem;
+    }
+     @include respond(phone) {
+        font-size: 2.5rem;
+    }
+
     &:hover {
         transform: skewX(2deg) skewY(-2.8deg);
-        text-shadow: .5rem 1rem 2rem rgba(0,0,0,0.3)
+        text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.3)
     }
 }
+
 .heading-secondary--light {
-    
+
     font-family: 'Alegreya Sans', sans-serif;
-    font-size:  4em;
+    font-size: 4em;
     display: inline-block;
     text-transform: uppercase;
     background-image: linear-gradient(to right, $color-white, $color-primary-light);
@@ -84,24 +107,26 @@
 
     &:hover {
         transform: skewX(2deg) skewY(-2.8deg);
-        text-shadow: .5rem 1rem 2rem rgba(0,0,0,0.3)
+        text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.3)
     }
 }
+
 .heading-secondary--light-no-anim {
-    
+
     font-family: 'Alegreya Sans', sans-serif;
-    font-size:  3em;
+    font-size: 3em;
     display: inline-block;
     text-transform: uppercase;
     background-image: linear-gradient(to right, $color-white, $color-primary-light);
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: .2rem;
-    text-shadow: .5rem 1rem 2rem rgba(0,0,0,0.3);
+    text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.3);
+
     & a:visited {
         color: $color-white;
     }
-  
+
 
 }
 
@@ -111,7 +136,7 @@
 }
 
 .heading-secondary--sub.animate {
-    text-align:center;
+    text-align: center;
     text-transform: uppercase;
     margin-left: 3.82%;
     color: $color-white;
@@ -130,12 +155,15 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .paragraph {
     font-size: 1.6rem;
+
     &:not(:last-child) {
         margin-bottom: 3rem;
     }
 }
+
 .about {
     position: absolute;
 }
