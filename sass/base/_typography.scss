@@ -19,7 +19,7 @@
 }
 
 .heading-primary {
-    color: $color-white;
+    color: $color-black;
     text-transform: uppercase;
 
     margin-bottom: 5rem;
@@ -58,7 +58,7 @@
     font-size:  3.5em;
     display: inline-block;
     text-transform: uppercase;
-    background-image: linear-gradient(to right, $color-black, $color-primary-dark);
+    background-image: linear-gradient(to right, $color-black, $color-grey-dark);
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: .2rem;
@@ -72,7 +72,7 @@
 .heading-secondary--light {
     
     font-family: 'Alegreya Sans', sans-serif;
-    font-size:  3.5em;
+    font-size:  4em;
     display: inline-block;
     text-transform: uppercase;
     background-image: linear-gradient(to right, $color-white, $color-primary-light);
@@ -89,13 +89,14 @@
 .heading-secondary--light-no-anim {
     
     font-family: 'Alegreya Sans', sans-serif;
-    font-size:  3.5em;
+    font-size:  3em;
     display: inline-block;
     text-transform: uppercase;
     background-image: linear-gradient(to right, $color-white, $color-primary-light);
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: .2rem;
+    text-shadow: .5rem 1rem 2rem rgba(0,0,0,0.3);
     & a:visited {
         color: $color-white;
     }
@@ -109,6 +110,7 @@
 }
 
 .heading-secondary--sub.animate {
+    text-align:center;
     text-transform: uppercase;
     margin-left: 3.82%;
     color: $color-white;

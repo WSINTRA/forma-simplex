@@ -25,7 +25,7 @@ const drawLines = () => {
 		path.getBoundingClientRect();
 		// Define our transition
 		path.style.transition = path.style.WebkitTransition =
-		  'stroke-dashoffset 9s ease-in';
+		  'stroke-dashoffset 29s ease-in';
 		// Go!
 		path.style.strokeDashoffset = '0';
         })

@@ -1,9 +1,20 @@
 .section-about {
 	background-color: $color-white;
-	background-image: linear-gradient(to bottom, $color-white, $color-grey-dark);
+	background-image: linear-gradient(to bottom, $color-white, $color-primary-dark);
 	padding-top: 13rem;
 	padding-bottom: 12rem;
 	margin-top: -10vh;
+
+}
+
+
+.section-projects {
+
+	background-color: $color-white;
+	background-image: linear-gradient(to bottom,$color-primary-dark,$color-white, );
+	padding-top: 13rem;
+	padding-bottom: 15rem;
+	
 
 }
 
@@ -24,13 +35,3 @@
 }
 
 //$color-grey-dark
-
-.section-projects {
-
-	background-color: $color-white;
-	background-image: linear-gradient(to bottom, $color-grey-dark,$color-white, );
-	padding-top: 13rem;
-	padding-bottom: 15rem;
-	
-
-}
