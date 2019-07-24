@@ -19,6 +19,9 @@ a {
   a:visited {
     color: #122220; }
 
+ol {
+  list-style-type: none; }
+
 @keyframes buttonUp {
   0% {
     transform: translateY(90rem);
@@ -127,6 +130,18 @@ a {
   .heading-secondary--light:hover {
     transform: skewX(2deg) skewY(-2.8deg);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3); }
+
+.heading-secondary--light-no-anim {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 3.5em;
+  display: inline-block;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #E7F8FB, #A3B8A5);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem; }
+  .heading-secondary--light-no-anim a:visited {
+    color: #E7F8FB; }
 
 .heading-secondary--sub {
   visibility: hidden; }
@@ -259,7 +274,7 @@ a {
     width: 100%;
     backface-visibility: hidden; }
     .card__side--front {
-      background-image: linear-gradient(to bottom, #E7F8FB, #A3B8A5, #101012);
+      background-image: linear-gradient(to bottom, #E7F8FB, #A3B8A5, #E7F8FB);
       background-color: rgba(231, 248, 251, 0.8);
       color: #101012; }
     .card__side--back {
@@ -274,14 +289,14 @@ a {
   .card__picture {
     background-size: cover;
     height: 23rem;
-    background-blend-mode: exclusion;
+    background-blend-mode: soft-light;
     clip-path: polygon(0 0, 100% 0, 100% 91.2%, 0 100%); }
     .card__picture--1 {
       background-image: linear-gradient(to bottom, #101012, #A3B8A5, #E7F8FB), url("../img/LittleDucth.gif"); }
     .card__picture--2 {
-      background-image: url("../img/tenTalk.gif"); }
+      background-image: linear-gradient(to bottom, #101012, #A3B8A5, #E7F8FB), url("../img/tenTalk.gif"); }
     .card__picture--3 {
-      background-image: url("../img/Untitled.gif"); }
+      background-image: linear-gradient(to bottom, #101012, #A3B8A5, #E7F8FB), url("../img/Untitled.gif"); }
 
 .header {
   height: 75vh;

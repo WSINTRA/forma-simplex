@@ -21,7 +21,7 @@
     backface-visibility: hidden;
 
 	&--front{
-		background-image: linear-gradient(to bottom, $color-white,$color-primary-light, $color-black);
+		background-image: linear-gradient(to bottom, $color-white,$color-primary-light, $color-white);
 		background-color: rgba($color-white, .8);
 		color: $color-black;
 	}
@@ -47,16 +47,16 @@
 	&__picture{
 		background-size: cover;
 		height: 23rem;
-		background-blend-mode:exclusion;
+		background-blend-mode:soft-light;
 		clip-path: polygon(0 0, 100% 0, 100% 91.2%, 0 100%);
 		&--1{
 			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/LittleDucth.gif");
 		}
 		&--2{
-			background-image: url("../img/tenTalk.gif");
+			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ),url("../img/tenTalk.gif");
 		}
 		&--3{
-			background-image: url("../img/Untitled.gif");
+			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ),url("../img/Untitled.gif");
 		}
 
 	}
