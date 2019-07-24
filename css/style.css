@@ -15,6 +15,7 @@ body {
   padding: 1em; }
 
 a {
+  color: #3E3542;
   text-decoration: none; }
   a:visited {
     color: #3E3542; }
@@ -112,7 +113,8 @@ ol {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
-  transition: all .5s; }
+  transition: all .5s;
+  padding-bottom: 1rem; }
   .heading-secondary:hover {
     transform: skewX(2deg) skewY(-2.8deg);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3); }
@@ -357,10 +359,77 @@ ol {
   .row .col-2-of-4 {
     width: calc( 2 * ((100% - 3 * 8rem) /4 ) + 8rem); }
 
+.navigation__checkbox {
+  display: none; }
+
+.navigation__button {
+  background-color: #E7F8FB;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  top: 3rem;
+  right: 3rem;
+  border-radius: 50%;
+  z-index: 2000;
+  box-shadow: 0 0.1rem 0.3rem #AAE9C2;
+  text-align: center;
+  line-height: 7rem; }
+
+.navigation__background {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 3.5rem;
+  right: 3.5rem;
+  background-image: radial-gradient(rgba(133, 124, 185, 0.8), #BE8DD1);
+  z-index: 1000;
+  transition: transform 0.8s cubic-bezier(0.945, -0.04, 0.21, 0.985); }
+
+.navigation__nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s cubic-bezier(0.945, -0.04, 0.21, 0.985); }
+
+.navigation__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 100%; }
+
+.navigation__link:link, .navigation__link:visited {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #E7F8FB;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #AAE9C2 100%);
+  background-size: 500%;
+  transition: all 1.23s; }
+
+.navigation__link:hover, .navigation__link:active {
+  background-position: 100%;
+  color: #3E3542; }
+
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80); }
+
+.navigation__checkbox:checked ~ .navigation__nav {
+  width: 100%;
+  opacity: 1; }
+
 .section-about {
   background-color: #E7F8FB;
   background-image: linear-gradient(to bottom, #E7F8FB, #93B5B9);
-  padding-top: 13rem;
+  padding-top: 23rem;
   padding-bottom: 12rem;
   margin-top: -10vh; }
 
@@ -372,7 +441,7 @@ ol {
 
 .section-contact {
   margin-top: -10rem;
-  padding: 20rem 0 23rem;
+  padding: 24rem 0 23rem;
   background-image: linear-gradient(rgba(170, 233, 194, 0.6), rgba(147, 181, 185, 0.6)), url(../img/large-1.png);
   background-position: bottom;
   background-size: cover;

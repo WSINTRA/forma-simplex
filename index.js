@@ -35,6 +35,27 @@ const drawLines = () => {
 
 }
 
+const closeMenu = () => {
+	
+	switch (event.target.id)  {
+		case 'menu__project':
+		console.log("menu clicked");
+		document.getElementById("navi-toggle").checked = false
+		break;
+		case 'menu__info':
+		console.log("menu clicked");
+		document.getElementById("navi-toggle").checked = false
+		break;
+		case 'menu__connect':
+		console.log("menu clicked");
+		document.getElementById("navi-toggle").checked = false
+		break;
+
+	}
+
+}
+
 
 window.addEventListener('scroll', animateHeader )
+window.addEventListener('click', closeMenu)
 

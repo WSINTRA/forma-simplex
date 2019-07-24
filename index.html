@@ -6,13 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya+Sans+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/icon-font.css">
-  
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/Asset 4.png">
     <title>Forma Simplex</title>
 </head>
 
 <body>
+<div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">MENU</label>
+
+    <div class="navigation__background">&nbsp;</div>
+    <div class="navigation__nav">
+        <ul class="navigation__list">
+            
+            <li class="navigation__item"><a class="navigation__link" id="menu__project" href="#projects">Projects</a></li>
+            <li class="navigation__item"><a class="navigation__link" id="menu__info" href="#info">Discover</a></li>
+            <li class="navigation__item"><a class="navigation__link" id="menu__connect" href="#connect">Connect</a></li>
+            
+        </ul>
+    </div>
+</div>
+
     <header class="header u-clip-path">
         <div class="header__logo-box">
         </div>
@@ -21,10 +36,10 @@
                 <span class="heading-primary--sub">Forma Simplex</span>
                 <span class="heading-primary--main">William Robert Simpson Fullstack Developer Portfolio</span>
             </h1>
-             <a href="#info" class="btn btn--white btn--animated u-tran-smooth">Discover more</a><br><br>
+            
             <a href="#projects" class="btn btn--white btn--animated u-tran-smooth">Projects</a><br><br>
-             <a href="#connect" class="btn btn--white btn--animated u-tran-smooth">Connect</a>
-           
+            <a href="#info" class="btn btn--white btn--animated u-tran-smooth">Discover</a><br><br>
+            <a href="#connect" class="btn btn--white btn--animated u-tran-smooth">Connect</a>
         </div>
         <span class="heading-secondary--sub">Forma Simplex Design</span>
     </header>
@@ -136,7 +151,193 @@
         </div> -->
     <main>
         <section class="section-about ">
-            <div class="u-center-text u-margin-bottom-8">
+                        <div class="u-center-text">
+                <h1 class="heading-secondary" id="projects">
+                    Full stack Projects <br>
+                </h1>
+            </div>
+            <div class="row ">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <div class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">LDCS analytics</span>
+                            </div>
+                            An admin business page analytics and ecommerce site, built to give an admin control over daily sales stats and creating new sales features as well as adding new employee's, admins and products to the system.<br>
+                            username : <u>test@admin.com</u> password : <u>admin</u> To access admin panel, make sure to make a purchase first before checking stats of daily purchases!
+                        </div>
+                        <div class="card__side card__side--back">
+                            <h3 class="heading-tertiary">Frameworks</h3>
+                            <div class="row">
+                                <div class="col-1-of-2">
+                                    <h4 class="heading-tertiary"> Front end</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>HTML5</li>
+                                            <li>Javascript</li>
+                                            <li>React</li>
+                                            <li>Redux</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-1-of-2">
+                                    <h4 class="heading-tertiary"> Back end</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>Ruby</li>
+                                            <li>Rails</li>
+                                            <li>JWT Auth</li>
+                                            <li>PostGreSQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a target="_blank" href="https://wsintra.github.io/store_analytic_project_FE/" class="u-margin-bottom-small btn">
+                                    <h2 class="heading-secondary--dark-no-anim ">Click for demo!</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="ui medium image" src="img/LittleDucth.gif">
+                    <div class="content">
+                        <a target="_blank" href="https://wsintra.github.io/store_analytic_project_FE/" class="u-margin-bottom-small"><u>Name:</u> Little Dutch Coffee Shop
+                            <div class="meta">
+                                <span><u>Frameworks:</u> React / Redux / ReChart / Rails</span>
+                            </div>
+                            <div class="description">
+                               <u>Description:</u> An admin business page analytics and ecommerce site, built to give an admin control over daily sales stats and creating new sales features as well as adding new employee's, admins and products to the system.
+                            </div>
+                        </a>
+                    </div> -->
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">Tenant Talk</span>
+                            </h4>
+                            <div class="card__details"></div>
+                            A tenant messaging system for communcal buildings. Users can report news or request assistance with repairs. The backend was built using Ruby on rails and deployed to heroku. Front end is react and ThreeJs. I challenged myself to get three working with react, it was a challenge but visually rewarding.
+                        </div>
+                        <div class="card__side card__side--back">
+                            <h3 class="heading-tertiary">Frameworks</h3>
+                            <div class="row">
+                                <div class="col-1-of-2">
+                                    <h4 class="heading-tertiary"> Front end</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>
+                                                ThreeJS
+                                            </li>
+                                            <li>HTML5</li>
+                                            <li>Javascript</li>
+                                            <li>React</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-1-of-2">
+                                    <h4 class="heading-tertiary"> Back end</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>Ruby</li>
+                                            <li>BCrypt</li>
+                                            <li>Rails</li>
+                                            <li>PostGreSQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a target="_blank" href="https://frozen-springs-39090.herokuapp.com/" class="u-margin-bottom-small btn">
+                                    <h3 class="heading-secondary--dark-no-anim ">give this one a try!!
+                                    </h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img class="ui medium image" src="img/tenTalk.gif">
+                    <div class="content">
+                        <a target="_blank" href="https://frozen-springs-39090.herokuapp.com/" class="u-margin-bottom-small"><u>Name:</u> Tenant Talk
+                            <div class="meta">
+                                <span class="date"><u>Frameworks:</u> ThreeJS / React / Rails</span>
+                            </div>
+                            <div class="description">
+                                <u>Description:</u> A tenant messaging system for communcal buildings. Users can report news or request assistance with repairs. The backend was built using Ruby on rails and deployed to heroku. Front end is react and ThreeJs. I challenged myself to get three working with react, it was a challenge but visually rewarding.
+                            </div>
+                        </a>
+                    </div> -->
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <div class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">DrumMashN</span>
+                            </div>
+                            <div class="card__details"></div>
+                            Visually stimulating drum sample machine, user can select existing kits or create there own. Drum pads interact with the background spheres. The backend is built using rails and holds the sound sample information, users add new sound samples by providing links to the location of the hosted files. A user can also build a kit using the built in sounds. The front end is a threeJS canvas of spheres and a moving star universe.
+                        </div>
+                        <div class="card__side card__side--back">
+                            <h3 class="heading-tertiary">Frameworks</h3>
+                            <div class="row">
+                                <div class="col-1-of-2">
+                                    <h4 class="heading-tertiary"> Front end</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>
+                                                ThreeJS
+                                            </li>
+                                            <li>HTML5</li>
+                                            <li>Javascript</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-1-of-2">
+                                    <h4 class="heading-tertiary"> Back end</h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>Ruby</li>
+                                            <li>Rails</li>
+                                            <li>PostGreSQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a target="_blank" href="https://wsintra.github.io/store_analytic_project_FE/" class="u-margin-bottom-small btn">
+                                    <h2 class="heading-secondary--dark-no-anim ">This one is so much fun!!!</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="image">
+                        <img class="ui medium image" src="img/Untitled.gif">
+                        <div class="content">
+                            <a target="_blank" href="https://wsintra.github.io/drumMachineFrontEnd/" class="u-margin-bottom-small"><u>Name:</u>DrumMashN
+                                <div class="meta">
+                                    <span><u>Frameworks:</u> ThreeJS / HTML5 / Javascript / Rails</span>
+                                </div>
+                                <div class="description">
+                                    <u>Description:</u> Visually stimulating drum sample machine, user can select existing kits or create there own. Drum pads interact with the background spheres. The backend is built using rails and holds the sound sample information, users add new sound samples by providing links to the location of the hosted files. A user can also build a kit using the built in sounds. The front end is a threeJS canvas of spheres and a moving star universe.
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+   
+        </section>
+        <section class="section-projects">
+                     <div class="u-center-text u-margin-bottom-8">
                 <h2 class="heading-secondary" id="info">
                     Designer / Developer <br>UI / UX - Fullstack
                 </h2>
@@ -164,15 +365,13 @@
                         simple, plain, uncompounded
                         pure, unmixed</p>
                     <h3 class="heading-tertiary u-margin-bottom-small">Motivations and Inspirations </h3>
-                     <p class="paragraph" >
+                    <p class="paragraph">
                         Will grew up wanting to be a hacker. When he was a little kid, he begged his Mum to buy him a c/c++ teach yourself at home course. Sending off his work eagerly every week and waiting for the results is a memory he cherishes. <br>
                         Coming from a mixed background in <a href="https://willsimpson85.wixsite.com/musicsavestheworld/" target="_blank" style="text-decoration:  underline;">music education</a> and telecommunications engineering industry, Will has continued learning about software and hardware technology.<br> His real love though is in creation<br> "I love to create websites, images, applications, music, 3d worlds, posters, art, food, blogs, you name it, I'll create it!" <br>
                         Will joined the Flatiron School in February 2019. There he learnt to build projects in Ruby/Javascript/React/Redux; contributing to his understanding of the full stack process and what it takes to be a professional developer. Since then he has continued learning and these days can be found reading Programming: Principles and Practice Using C++, <br>"it's not that I have ambitions of being a c++ developer, it's just that the book is so enlightening with regards programming. I recommend every developer should read it!!<br> I can't put it down."
                     </p>
-                     
                 </div>
                 <div class="col-1-of-2  u-round-radius u-light-bground">
-
                     <svg viewBox="-250 -100 1200 1100" preserveAspectRatio="none">
                         <title>About me</title>
                         <path d="M524.92,174.07c1-1.38,77.85-103.48,52.66-116.07-25.36-12.68-121,28.07-121,28.07l-41-69S351.27-3.43,318.11,3.39s-83.89,44.77-91.69,46.28-58.53,79.54-60.48,93.2,7.8,46.82,13.65,54.62S203,243.65,203,243.65L165.68,309s-37.32,48.49,0,66,60.74,0,60.74,0l13.65,23.41-11.7,28.32-5.86,12.5h17.56l-11.7,11.86H193.25l-11.71,21.46-3.9,9.75H156.18l-15.61,25.36S89.85,529.15,78.14,535s-42.92,27.31-48.77,31.21C25.19,569,12,577.78,2,584.69" style="fill:none;stroke:#43523C;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px" stroke-dasharray="1364 1364" stroke-dashoffset="1364" />
@@ -220,187 +419,8 @@
                         <path d="M526.11,399.59a7,7,0,0,0,2.94-3.2,3.15,3.15,0,0,0-4.65,3.25,1.77,1.77,0,0,0,1.86.18" style="fill:none;stroke:#43523C;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px" stroke-dasharray="988.00 988.00" stroke-dashoffset="988.00" />
                     </svg>
                 </div>
-
             </div>
-        </section>
-        <section class="section-projects">
-           <div class="u-center-text">
-                    <h1 class="heading-secondary" id="projects">
-                        Full stack Projects <br>
-                    </h1>
-                </div>
-            <div class="row ">
-                
-                <div class="col-1-of-3">
-                    <a target="_blank" href="https://wsintra.github.io/store_analytic_project_FE/" class="u-margin-bottom-small btn">
-                        <h2 class="heading-secondary--light-no-anim ">Click here to see the demo!</a></h3>
-                    <div class="card">
-                        <div class="card__side card__side--front">
-                            <div class="card__picture card__picture--1">
-                                &nbsp;
-                            </div>
-                            <div class="card__heading">
-                                <span class="card__heading-span card__heading-span--1">LDCS analytics</span>
-                                
-                            </div>
-                           
-                                An admin business page analytics and ecommerce site, built to give an admin control over daily sales stats and creating new sales features as well as adding new employee's, admins and products to the system.<br>
-                                username : <u>test@admin.com</u> password : <u>admin</u> To access admin panel, make sure to make a purchase first before checking stats of daily purchases!
-                        </div>
-                        <div class="card__side card__side--back"><h3 class="heading-tertiary">Frameworks</h3>
-                                <div class="row">
-                                    <div class="col-1-of-2">
-                                       <h4 class="heading-tertiary"> Front end</h4>
-                                        <div class="card__details">
-                                               <ul>
-                                        <li>
-                                        ThreeJS
-                                        </li>
-                                        <li>HTML5</li>
-                                        <li>Javascript</li>
-                                        <li>Semantic UI</li>
-                                        <li>React</li>
-                                        <li>Redux</li>
 
-                                </ul>
-                                        </div>
-                                    
-                                    </div>
-                                    <div class="col-1-of-2">
-                                       <h4 class="heading-tertiary"> Back end</h4>
-                                       <div class="card__details">
-                                       <ul>
-                                        <li>Ruby</li>
-                                        <li>Rails</li>
-                                        <li>BCrypt</li>
-                                        <li>JWT Auth</li>
-                                        <li>PostGreSQL</li>
-                                    </ul>
-                                   </div>
-                                    </div>
-                                </div>
-                                
-                        </div>
-                    </div>
-                    
-                    <!-- <img class="ui medium image" src="img/LittleDucth.gif">
-                    <div class="content">
-                        <a target="_blank" href="https://wsintra.github.io/store_analytic_project_FE/" class="u-margin-bottom-small"><u>Name:</u> Little Dutch Coffee Shop
-                            <div class="meta">
-                                <span><u>Frameworks:</u> React / Redux / ReChart / Rails</span>
-                            </div>
-                            <div class="description">
-                               <u>Description:</u> An admin business page analytics and ecommerce site, built to give an admin control over daily sales stats and creating new sales features as well as adding new employee's, admins and products to the system.
-                            </div>
-                        </a>
-                    </div> -->
-                </div>
-                <div class="col-1-of-3">
-                    <a target="_blank" href="https://frozen-springs-39090.herokuapp.com/" class="u-margin-bottom-small btn">
-                     <h2 class="heading-secondary--light-no-anim ">give this one a try!!</a></h3>
-                      <div class="card">
-                        <div class="card__side card__side--front">
-                            <div class="card__picture card__picture--2">
-                                &nbsp;
-                            </div>
-                            <h4 class="card__heading">
-                                <span class="card__heading-span card__heading-span--1">Tenant Talk</span>
-                                
-                            </h4>
-                            <div class="card__details"></div>
-                              A tenant messaging system for communcal buildings. Users can report news or request assistance with repairs. The backend was built using Ruby on rails and deployed to heroku. Front end is react and ThreeJs. I challenged myself to get three working with react, it was a challenge but visually rewarding.
-                        </div>
-                         <div class="card__side card__side--back"><h3 class="heading-tertiary">Frameworks</h3>
-                                <div class="row">
-                                    <div class="col-1-of-2">
-                                       <h4 class="heading-tertiary"> Front end</h4>
-                                       <div class="card__details">
-                                        <ul>
-                                        <li>
-                                        ThreeJS
-                                        </li>
-                                        <li>HTML5</li>
-                                        <li>Javascript</li>
-                                        <li>React</li>
-
-                                </ul>
-                            </div>
-                                    </div>
-                                    <div class="col-1-of-2">
-                                       <h4 class="heading-tertiary"> Back end</h4>
-                                       <div class="card__details">
-                                       <ul><li>Ruby</li><li>BCrypt</li><li>Rails</li><li>PostGreSQL</li></ul>
-                                   </div>
-                                    </div>
-                                </div>
-                                
-                        </div>
-                    </div>
-                    <!-- <img class="ui medium image" src="img/tenTalk.gif">
-                    <div class="content">
-                        <a target="_blank" href="https://frozen-springs-39090.herokuapp.com/" class="u-margin-bottom-small"><u>Name:</u> Tenant Talk
-                            <div class="meta">
-                                <span class="date"><u>Frameworks:</u> ThreeJS / React / Rails</span>
-                            </div>
-                            <div class="description">
-                                <u>Description:</u> A tenant messaging system for communcal buildings. Users can report news or request assistance with repairs. The backend was built using Ruby on rails and deployed to heroku. Front end is react and ThreeJs. I challenged myself to get three working with react, it was a challenge but visually rewarding.
-                            </div>
-                        </a>
-                    </div> -->
-                </div>
-                <div class="col-1-of-3">
-                    <a target="_blank" href="https://wsintra.github.io/drumMachineFrontEnd/" class="u-margin-bottom-small btn">
-                     <h2 class="heading-secondary--light-no-anim ">This one is so much fun!!!</a></h3>
-                      <div class="card">
-                        <div class="card__side card__side--front">
-                            <div class="card__picture card__picture--3">
-                                &nbsp;
-                            </div>
-                            <div class="card__heading">
-                                <span class="card__heading-span card__heading-span--1">DrumMashN</span>
-                            </div>
-                            <div class="card__details"></div>
-                              Visually stimulating drum sample machine, user can select existing kits or create there own. Drum pads interact with the background spheres. The backend is built using rails and holds the sound sample information, users add new sound samples by providing links to the location of the hosted files. A user can also build a kit using the built in sounds. The front end is a threeJS canvas of spheres and a moving star universe.
-                        </div>
-                         <div class="card__side card__side--back"><h3 class="heading-tertiary">Frameworks</h3>
-                                <div class="row">
-                                    <div class="col-1-of-2">
-                                       <h4 class="heading-tertiary"> Front end</h4>
-                                       <div class="card__details">
-                                       <ul>
-                                        <li>
-                                        ThreeJS
-                                        </li>
-                                        <li>HTML5</li>
-                                        <li>Javascript</li>
-                                </ul>
-                            </div>
-                                    </div>
-                                    <div class="col-1-of-2">
-                                       <h4 class="heading-tertiary"> Back end</h4>
-                                       <div class="card__details">
-                                       <ul><li>Ruby</li><li>Rails</li><li>PostGreSQL</li></ul>
-                                   </div>
-                                    </div>
-                                </div>
-                                
-                        </div>
-                    </div>
-                    <!-- <div class="image">
-                        <img class="ui medium image" src="img/Untitled.gif">
-                        <div class="content">
-                            <a target="_blank" href="https://wsintra.github.io/drumMachineFrontEnd/" class="u-margin-bottom-small"><u>Name:</u>DrumMashN
-                                <div class="meta">
-                                    <span><u>Frameworks:</u> ThreeJS / HTML5 / Javascript / Rails</span>
-                                </div>
-                                <div class="description">
-                                    <u>Description:</u> Visually stimulating drum sample machine, user can select existing kits or create there own. Drum pads interact with the background spheres. The backend is built using rails and holds the sound sample information, users add new sound samples by providing links to the location of the hosted files. A user can also build a kit using the built in sounds. The front end is a threeJS canvas of spheres and a moving star universe.
-                                </div>
-                            </a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
             <!--  <div class="centre-container column btn btn--white btn--animated">
                     <span><p>Github <a target="_blank" href="https://github.com/WSINTRA/">
                             <i class="github link icon"></i></a>
@@ -415,23 +435,23 @@
             <div class="row">
                 <div class="col-2-of-4">
                     <a target="_blank" href="https://github.com/WSINTRA/">
-                    <div class="contact-box" id="connect">
-                        <i class="contact-box__icon icofont-github"></i>
-                        <h3 class="heading-tertiary">Github / WSINTRA</h3>
-                        <p class="contact-box__text">what the code looks like</p>
-                    </div></a>
+                        <div class="contact-box" id="connect">
+                            <i class="contact-box__icon icofont-github"></i>
+                            <h3 class="heading-tertiary">Github / WSINTRA</h3>
+                            <p class="contact-box__text">what the code looks like</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-2-of-4">
                     <a target="_blank" href="https://medium.com/@will.simpson_">
-                    <div class="contact-box">
-                        <i class="contact-box__icon icofont-read-book"></i>
-                        <h3 class="heading-tertiary">Medium / will.simpson_</h3>
-                        <p class="contact-box__text">the writings and ramblings </p>
-                    </div>
+                        <div class="contact-box">
+                            <i class="contact-box__icon icofont-read-book"></i>
+                            <h3 class="heading-tertiary">Medium / will.simpson_</h3>
+                            <p class="contact-box__text">the writings and ramblings </p>
+                        </div>
                     </a>
                 </div>
             </div>
-            
         </section>
     </main>
     <script type="text/javascript" src="index.js"></script>
