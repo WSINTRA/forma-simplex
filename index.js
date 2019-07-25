@@ -1,3 +1,6 @@
+let drawIsRun = false //variable to control if the drawLines has been fired.
+
+
 const animateHeader = () => {
 
 let headtextForAnimation = document.querySelector('.heading-primary--sub');
@@ -7,14 +10,19 @@ headtextForAnimation.classList.add('animate-scroll');
 tailtextForAnimation.classList.add('animate')
 drawLines()
 }
-let drawIsRun = false
 
-const drawLines = () => {
-	if(drawIsRun === false){
+
+
+const drawLines = () => { //not a pure function !!!!
+
+	
+	if(drawIsRun === false && window.scrollY > 1500){
+		
+       
 		let allpath = document.querySelectorAll('path')
 		let length = 1364
-		console.log(length)
-        allpath.forEach(path => {
+		
+		allpath.forEach(path => {
         path.style.transition = path.style.WebkitTransition =
 		  'none';
 		// Set up the starting positions
@@ -31,11 +39,13 @@ const drawLines = () => {
         })
 		
 		drawIsRun = true
+		
+  
 	}
 
 }
 
-const closeMenu = () => {
+const closeMenu = () => {  //Controls the Menu navigation buttons.
 	
 	switch (event.target.id)  {
 		case 'menu__project':
