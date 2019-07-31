@@ -51,13 +51,23 @@
 		clip-path: polygon(0 0, 100% 0, 100% 91.2%, 0 100%);
 		&--1{
 			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/LittleDucth.gif");
+			@include respond(phone) {
+				background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/LittleDucth.png");
+			}
 		}
 		&--2{
 			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ),url("../img/tenTalk.gif");
+			@include respond(phone) {
+				background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/TenantTalk.png");
+			}
 		}
 		&--3{
 			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ),url("../img/Untitled.gif");
+			@include respond(phone) {
+				background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/untitled.png");
+			}
 		}
+
 
 	}
 

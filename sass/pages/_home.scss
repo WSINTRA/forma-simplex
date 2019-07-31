@@ -32,6 +32,9 @@
 	margin-top: -10rem;
 	padding: 24rem 0 23rem;
 	background-image: linear-gradient(rgba($color-primary-light, 0.6), rgba($color-primary-dark, 0.6)), url(../img/large-1.png);
+	@include respond(phone) {
+    	background-image: linear-gradient(rgba($color-primary-light, 0.6), rgba($color-primary-dark, 0.6)), url(../img/small-1.png);
+    }
 	background-position: bottom;
 	background-size: cover;
 	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);

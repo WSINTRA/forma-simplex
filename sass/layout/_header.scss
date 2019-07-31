@@ -7,4 +7,9 @@
     background-position: top;
     width: 100%;
     position: relative;
+
+    
+    @include respond(phone) {
+    	background-image: linear-gradient(rgba($color-primary-light, 0.6), rgba($color-primary-dark, 0.6)), url(../img/small-1.png);
+    }
 }

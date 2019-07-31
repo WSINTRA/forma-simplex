@@ -346,10 +346,19 @@ ol {
     clip-path: polygon(0 0, 100% 0, 100% 91.2%, 0 100%); }
     .card__picture--1 {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LittleDucth.gif"); }
+      @media (max-width: 37.5em) {
+        .card__picture--1 {
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LittleDucth.png"); } }
     .card__picture--2 {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/tenTalk.gif"); }
+      @media (max-width: 37.5em) {
+        .card__picture--2 {
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/TenantTalk.png"); } }
     .card__picture--3 {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/Untitled.gif"); }
+      @media (max-width: 37.5em) {
+        .card__picture--3 {
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/untitled.png"); } }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -422,6 +431,9 @@ ol {
   background-position: top;
   width: 100%;
   position: relative; }
+  @media (max-width: 37.5em) {
+    .header {
+      background-image: linear-gradient(rgba(170, 233, 194, 0.6), rgba(147, 181, 185, 0.6)), url(../img/small-1.png); } }
 
 .row {
   max-width: 114rem;
@@ -574,6 +586,9 @@ ol {
   background-position: bottom;
   background-size: cover;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }
+  @media (max-width: 37.5em) {
+    .section-contact {
+      background-image: linear-gradient(rgba(170, 233, 194, 0.6), rgba(147, 181, 185, 0.6)), url(../img/small-1.png); } }
   @media (max-width: 56.25em) {
     .section-contact {
       padding: 18rem 0 6rem; } }
