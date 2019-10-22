@@ -25,7 +25,7 @@ ORDER > Base + typography > general layout + grid > page layout > components
   scroll-behavior: smooth; }
 
 html {
-  font-size: 72%; }
+  font-size: 82%; }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -103,7 +103,6 @@ ol {
 
 .heading-primary {
   color: #060607;
-  text-transform: uppercase;
   margin-bottom: 5rem; }
   .heading-primary--main {
     display: block;
@@ -129,7 +128,6 @@ ol {
   font-size: 3.5em;
   font-weight: 700;
   display: inline-block;
-  text-transform: uppercase;
   background-image: linear-gradient(to right, #060607, #3E3542);
   -webkit-background-clip: text;
   color: transparent;
@@ -149,7 +147,6 @@ ol {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 4em;
   display: inline-block;
-  text-transform: uppercase;
   background-image: linear-gradient(to right, #E7F8FB, #AAE9C2);
   -webkit-background-clip: text;
   color: transparent;
@@ -163,7 +160,6 @@ ol {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 3em;
   display: inline-block;
-  text-transform: uppercase;
   background-image: linear-gradient(to right, #E7F8FB, #AAE9C2);
   -webkit-background-clip: text;
   color: transparent;
@@ -177,7 +173,6 @@ ol {
 
 .heading-secondary--sub.animate {
   text-align: center;
-  text-transform: uppercase;
   margin-left: 3.82%;
   color: #E7F8FB;
   display: block;
@@ -188,8 +183,7 @@ ol {
 
 .heading-tertiary {
   font-size: 1.6rem;
-  font-weight: 700;
-  text-transform: uppercase; }
+  font-weight: 700; }
 
 .paragraph {
   font-size: 1.6rem; }
