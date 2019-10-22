@@ -4,7 +4,7 @@
 	height: 50rem;
 	position: relative;
 	perspective: 190rem;
-	
+	padding: .5rem;
 	&__side {
 	font-size: 1.5rem;
 	// padding: 2.5rem;
@@ -24,6 +24,7 @@
 		background-image: linear-gradient(to bottom, $color-white,$color-primary-light, $color-white);
 		background-color: rgba($color-white, .8);
 		color: $color-black;
+		padding: .5rem;
 	}
 
 	&--back{
@@ -31,6 +32,7 @@
 		background-color: rgba($color-black, .8);
 		transform: rotateY(-180deg);
 		color: $color-grey;
+		padding: .5rem;
 	}
 	}
 	
@@ -99,11 +101,12 @@
 	}
 
 	&__details {
+		padding: .5rem;
 		ul {
 			list-style: none;
 			width: 8rem;
 			margin: 0 auto;
-
+			padding: .5rem;
 			li {
 				text-align: center;
 				font-size: 1.5rem;
@@ -175,6 +178,7 @@
 	}
 
 	&__details {
+		padding: .5rem;
 		ul {
 			list-style: none;
 			width: 8rem;
