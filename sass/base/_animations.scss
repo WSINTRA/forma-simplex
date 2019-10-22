@@ -12,26 +12,26 @@
     100% {}
 }
 
-@keyframes moveInLeft {
-    0% {
-        opacity: 0;
+// @keyframes moveInLeft {
+//     0% {
+//         opacity: 0;
 
-        transform: translateX(-30rem) rotateY(180deg) rotateZ(90deg);
-    }
+//         transform: translateX(-30rem);
+//     }
 
-    20% {}
+//     20% {}
 
-    60% {
-        opacity: 0.3
-    }
+//     60% {
+//         opacity: 0.3
+//     }
 
-    100% {
+//     100% {
 
-        transform: translateX(0);
-        opacity: 1;
+//         transform: translateX(0);
+//         opacity: 1;
 
-    }
-}
+//     }
+// }
 
 @keyframes moveOut {
     0% {
