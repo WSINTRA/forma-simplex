@@ -69,6 +69,24 @@
 				background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/untitled.png");
 			}
 		}
+		&--4{
+		background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ),url("../img/DateApp.gif");
+		@include respond(phone) {
+			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/DateApp.jpg");
+		}
+		}
+			&--5{
+		background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ),url("../img/LobbyLoader.gif");
+		@include respond(phone) {
+			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/lobbyLoader.png");
+		}
+		}
+			&--6{
+		background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ),url("../img/BlueRica.gif");
+		@include respond(phone) {
+			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/BlueRica.png");
+		}
+		}
 
 
 	}

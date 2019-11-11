@@ -36,7 +36,7 @@ body {
     font-weight: 400;
     line-height: 1.7;
     color: $color-grey-dark;
-    padding: 1em;
+    padding: 2em;
     @include respond(tab-land) {
         padding: 0;
     }
