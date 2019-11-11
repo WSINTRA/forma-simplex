@@ -45,7 +45,7 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #3E3542;
-  padding: 1em; }
+  padding: 2em; }
   @media (max-width: 75em) {
     body {
       padding: 0; } }
@@ -330,6 +330,21 @@ ol {
       @media (max-width: 37.5em) {
         .card__picture--3 {
           background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/untitled.png"); } }
+    .card__picture--4 {
+      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/DateApp.gif"); }
+      @media (max-width: 37.5em) {
+        .card__picture--4 {
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/DateApp.jpg"); } }
+    .card__picture--5 {
+      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LobbyLoader.gif"); }
+      @media (max-width: 37.5em) {
+        .card__picture--5 {
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/lobbyLoader.png"); } }
+    .card__picture--6 {
+      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/BlueRica.gif"); }
+      @media (max-width: 37.5em) {
+        .card__picture--6 {
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/BlueRica.png"); } }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -539,6 +554,8 @@ ol {
   background-image: linear-gradient(to bottom, #E7F8FB, #93B5B9);
   padding-top: 23rem;
   padding-bottom: 12rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   margin-top: -10vh; }
   @media (max-width: 56.25em) {
     .section-about {
@@ -549,7 +566,9 @@ ol {
   background-color: #E7F8FB;
   background-image: linear-gradient(to bottom, #93B5B9, #E7F8FB);
   padding-top: 6rem;
-  padding-bottom: 15rem; }
+  padding-bottom: 15rem;
+  padding-left: 3rem;
+  padding-right: 3rem; }
   @media (max-width: 56.25em) {
     .section-projects {
       padding-top: 2rem;
@@ -557,7 +576,7 @@ ol {
 
 .section-contact {
   margin-top: -10rem;
-  padding: 24rem 0 23rem;
+  padding: 24rem 3rem 23rem;
   background-image: linear-gradient(rgba(170, 233, 194, 0.6), rgba(147, 181, 185, 0.6)), url(../img/large-1.png);
   background-position: bottom;
   background-size: cover;
