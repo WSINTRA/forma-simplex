@@ -64,9 +64,7 @@ ol {
     transform: translateY(90rem);
     opacity: 0; }
   90% {
-    opacity: 0.5; }
-  100% { } }
-
+    opacity: 0.5; } }
 @keyframes moveOut {
   0% {
     opacity: 1;
@@ -74,18 +72,15 @@ ol {
   100% {
     opacity: 0;
     transform: translateX(10rem); } }
-
 @keyframes moveInRight {
   0% {
     opacity: 0;
     transform: translateX(30rem); }
-  20% { }
   60% {
     opacity: 0.3; }
   100% {
     transform: translateX(0);
     opacity: 1; } }
-
 .header__logo {
   height: 5rem; }
 
@@ -319,32 +314,37 @@ ol {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LittleDucth.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--1 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LittleDucth.png"); } }
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LittleDucth.gif"); } }
     .card__picture--2 {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/tenTalk.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--2 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/TenantTalk.png"); } }
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/tenTalk.gif"); } }
     .card__picture--3 {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/Untitled.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--3 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/untitled.png"); } }
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/Untitled.gif"); } }
     .card__picture--4 {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/DateApp.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--4 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/DateApp.jpg"); } }
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/DateApp.gif"); } }
     .card__picture--5 {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LobbyLoader.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--5 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/lobbyLoader.png"); } }
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LobbyLoader.gif"); } }
     .card__picture--6 {
       background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/BlueRica.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--6 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/BlueRica.png"); } }
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/BlueRica.gif"); } }
+    .card__picture--7 {
+      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/dutch.gif"); }
+      @media (max-width: 37.5em) {
+        .card__picture--7 {
+          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/dutch.gif"); } }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -471,7 +471,6 @@ ol {
 
 .navigation__checkbox {
   display: none; }
-
 .navigation__button {
   background-color: #E7F8FB;
   height: 7rem;
@@ -491,7 +490,6 @@ ol {
       width: 3.5rem;
       height: 3.5rem;
       line-height: 3.5rem; } }
-
 .navigation__background {
   height: 6rem;
   width: 6rem;
@@ -508,7 +506,6 @@ ol {
       right: 1.5rem;
       width: 3rem;
       height: 3rem; } }
-
 .navigation__nav {
   height: 100vh;
   position: fixed;
@@ -518,7 +515,6 @@ ol {
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.945, -0.04, 0.21, 0.985); }
-
 .navigation__list {
   position: absolute;
   top: 50%;
@@ -527,7 +523,6 @@ ol {
   list-style: none;
   text-align: center;
   width: 100%; }
-
 .navigation__link:link, .navigation__link:visited {
   font-size: 5rem;
   font-weight: 300;
@@ -537,14 +532,11 @@ ol {
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #AAE9C2 100%);
   background-size: 500%;
   transition: all 1.23s; }
-
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
   color: #3E3542; }
-
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80); }
-
 .navigation__checkbox:checked ~ .navigation__nav {
   width: 100%;
   opacity: 1; }
@@ -587,3 +579,5 @@ ol {
   @media (max-width: 56.25em) {
     .section-contact {
       padding: 18rem 0 6rem; } }
+
+/*# sourceMappingURL=style.css.map */
