@@ -93,6 +93,12 @@
 			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/dutch.gif");
 		}
 		}
+			&--8{
+		background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ),url("../img/360.gif");
+		@include respond(phone) {
+			background-image: linear-gradient(to bottom, $color-black,$color-primary-light, $color-white ), url("../img/360.gif");
+			}
+		}
 
 
 	}
