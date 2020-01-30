@@ -106,7 +106,7 @@ ol {
   margin-bottom: 5rem; }
   .heading-primary--main {
     display: block;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 2.1rem; }
     @media (max-width: 37.5em) {
@@ -147,7 +147,7 @@ ol {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 4em;
   display: inline-block;
-  background-image: linear-gradient(to right, #E7F8FB, #AAE9C2);
+  background-image: linear-gradient(to right, #E7F8FB, #c5aad6);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -160,7 +160,7 @@ ol {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 3em;
   display: inline-block;
-  background-image: linear-gradient(to right, #E7F8FB, #AAE9C2);
+  background-image: linear-gradient(to right, #E7F8FB, #c5aad6);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -243,7 +243,7 @@ ol {
   .contact-box__icon {
     font-size: 6rem;
     display: inline-block;
-    background-image: linear-gradient(to right, #AAE9C2, #93B5B9);
+    background-image: linear-gradient(to right, #c5aad6, #f3c2ef);
     -webkit-background-clip: text;
     color: transparent; }
   .contact-box:hover {
@@ -296,12 +296,12 @@ ol {
     width: 100%;
     backface-visibility: hidden; }
     .card__side--front {
-      background-image: linear-gradient(to bottom, #E7F8FB, #AAE9C2, #E7F8FB);
+      background-image: linear-gradient(to bottom, #E7F8FB, #c5aad6, #E7F8FB);
       background-color: rgba(231, 248, 251, 0.8);
       color: #060607;
       padding: .5rem; }
     .card__side--back {
-      background-image: linear-gradient(to bottom, #AAE9C2, #E7F8FB);
+      background-image: linear-gradient(to bottom, #c5aad6, #E7F8FB);
       background-color: rgba(6, 6, 7, 0.8);
       transform: rotateY(-180deg);
       color: #1D1E1E;
@@ -316,45 +316,45 @@ ol {
     background-blend-mode: soft-light;
     clip-path: polygon(0 0, 100% 0, 100% 91.2%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LittleDucth.gif"); }
+      background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/LittleDucth.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--1 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LittleDucth.gif"); } }
+          background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/LittleDucth.gif"); } }
     .card__picture--2 {
-      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/tenTalk.gif"); }
+      background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/tenTalk.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--2 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/tenTalk.gif"); } }
+          background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/tenTalk.gif"); } }
     .card__picture--3 {
-      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/Untitled.gif"); }
+      background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/Untitled.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--3 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/Untitled.gif"); } }
+          background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/Untitled.gif"); } }
     .card__picture--4 {
-      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/DateApp.gif"); }
+      background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/DateApp.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--4 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/DateApp.gif"); } }
+          background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/DateApp.gif"); } }
     .card__picture--5 {
-      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LobbyLoader.gif"); }
+      background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/LobbyLoader.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--5 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/LobbyLoader.gif"); } }
+          background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/LobbyLoader.gif"); } }
     .card__picture--6 {
-      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/BlueRica.gif"); }
+      background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/BlueRica.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--6 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/BlueRica.gif"); } }
+          background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/BlueRica.gif"); } }
     .card__picture--7 {
-      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/dutch.gif"); }
+      background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/dutch.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--7 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/dutch.gif"); } }
+          background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/dutch.gif"); } }
     .card__picture--8 {
-      background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/360.gif"); }
+      background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/360.gif"); }
       @media (max-width: 37.5em) {
         .card__picture--8 {
-          background-image: linear-gradient(to bottom, #060607, #AAE9C2, #E7F8FB), url("../img/360.gif"); } }
+          background-image: linear-gradient(to bottom, #060607, #c5aad6, #E7F8FB), url("../img/360.gif"); } }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -369,7 +369,7 @@ ol {
     --webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(170, 233, 194, 0.35), rgba(170, 233, 194, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(197, 170, 214, 0.35), rgba(197, 170, 214, 0.85)); }
   .card__details {
     padding: .5rem; }
     .card__details ul {
@@ -391,7 +391,7 @@ ol {
         padding-bottom: 3rem;
         position: relative; }
         .card__side--back {
-          background-image: linear-gradient(to bottom, #AAE9C2, #E7F8FB);
+          background-image: linear-gradient(to bottom, #c5aad6, #E7F8FB);
           background-color: rgba(6, 6, 7, 0.8);
           transform: rotateY(0);
           color: #1D1E1E; }
@@ -411,7 +411,7 @@ ol {
         --webkit-box-decoration-break: clone;
         box-decoration-break: clone; }
         .card__heading-span--1 {
-          background-image: linear-gradient(to right bottom, rgba(170, 233, 194, 0.35), rgba(170, 233, 194, 0.85)); }
+          background-image: linear-gradient(to right bottom, rgba(197, 170, 214, 0.35), rgba(197, 170, 214, 0.85)); }
       .card__details {
         padding: .5rem; }
         .card__details ul {
@@ -426,7 +426,7 @@ ol {
 
 .header {
   height: 75vh;
-  background-image: linear-gradient(rgba(170, 233, 194, 0.6), rgba(147, 181, 185, 0.6)), url(../img/large-1.png);
+  background-image: linear-gradient(rgba(197, 170, 214, 0.6), rgba(243, 194, 239, 0.6)), url(../img/large-1.png);
   background-size: cover;
   /*background-blend-mode: saturation;*/
   background-position: top;
@@ -434,7 +434,7 @@ ol {
   position: relative; }
   @media (max-width: 37.5em) {
     .header {
-      background-image: linear-gradient(rgba(170, 233, 194, 0.6), rgba(147, 181, 185, 0.6)), url(../img/small-1.png); } }
+      background-image: linear-gradient(rgba(197, 170, 214, 0.6), rgba(243, 194, 239, 0.6)), url(../img/small-1.png); } }
 
 .row {
   max-width: 114rem;
@@ -491,7 +491,7 @@ ol {
   right: 3rem;
   border-radius: 50%;
   z-index: 2000;
-  box-shadow: 0 0.1rem 0.3rem #AAE9C2;
+  box-shadow: 0 0.1rem 0.3rem #c5aad6;
   text-align: center;
   line-height: 7rem; }
   @media (max-width: 37.5em) {
@@ -544,7 +544,7 @@ ol {
   color: #E7F8FB;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #AAE9C2 100%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #c5aad6 100%);
   background-size: 500%;
   transition: all 1.23s; }
 
@@ -561,7 +561,7 @@ ol {
 
 .section-about {
   background-color: #E7F8FB;
-  background-image: linear-gradient(to bottom, #E7F8FB, #93B5B9);
+  background-image: linear-gradient(to bottom, #E7F8FB, #f3c2ef);
   padding-top: 23rem;
   padding-bottom: 12rem;
   padding-left: 3rem;
@@ -574,7 +574,7 @@ ol {
 
 .section-projects {
   background-color: #E7F8FB;
-  background-image: linear-gradient(to bottom, #93B5B9, #E7F8FB);
+  background-image: linear-gradient(to bottom, #f3c2ef, #E7F8FB);
   padding-top: 6rem;
   padding-bottom: 15rem;
   padding-left: 3rem;
@@ -587,13 +587,13 @@ ol {
 .section-contact {
   margin-top: -10rem;
   padding: 24rem 3rem 23rem;
-  background-image: linear-gradient(rgba(170, 233, 194, 0.6), rgba(147, 181, 185, 0.6)), url(../img/large-1.png);
+  background-image: linear-gradient(rgba(197, 170, 214, 0.6), rgba(243, 194, 239, 0.6)), url(../img/large-1.png);
   background-position: bottom;
   background-size: cover;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }
   @media (max-width: 37.5em) {
     .section-contact {
-      background-image: linear-gradient(rgba(170, 233, 194, 0.6), rgba(147, 181, 185, 0.6)), url(../img/small-1.png); } }
+      background-image: linear-gradient(rgba(197, 170, 214, 0.6), rgba(243, 194, 239, 0.6)), url(../img/small-1.png); } }
   @media (max-width: 56.25em) {
     .section-contact {
       padding: 18rem 0 6rem; } }
